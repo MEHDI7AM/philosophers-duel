@@ -1,0 +1,20 @@
+:root {
+  --game-font: 'Cinzel', 'Crimson Pro', Georgia, serif;
+  --body-font: 'Crimson Pro', Georgia, serif;
+  --gold: #d8b45a;
+  --gold-dim: #8a6f30;
+  --red: #c0392b;
+  --blue: #3b6ea8;
+  --ink: #0f0b14;
+  --parchment: #f1e3c3;
+}
+body,
+#ui-layer {
+  font-family: var(--game-font);
+}
+#answer-input,
+.q-text,
+.eval-box,
+.philos-card .desc {
+  font-family: var(--body-font);
+}

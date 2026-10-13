@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "theme": { "accent": "#d8b45a" },
+  "types": [],
+  "settings": [
+    { "key": "startingHp", "label": "Starting HP", "input": "number", "min": 50, "max": 200, "step": 10 },
+    { "key": "aiBaseSkill", "label": "AI Skill (0-1)", "input": "number", "min": 0, "max": 1, "step": 0.05 }
+  ]
+}
